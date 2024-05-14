@@ -9,10 +9,12 @@ Run `npm install`
 
 ### 2. Start the application locally
 Run `npm start`
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### 3. Start the mocked application locally
 Run `npm run start:mock`
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### 4. Run the visual regression tests
