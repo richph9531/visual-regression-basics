@@ -1,0 +1,30 @@
+{
+  "title": "Watch shopping",
+  "description": "This is a practice page created to be able to choose a strap colour and display the time or heart rate on the selected product.",
+  "colorOptions": [
+    {
+      "id": 1,
+      "styleName": "Black Strap",
+      "imageUrl": "BlackStrap.png"
+    },
+    {
+      "id": 2,
+      "styleName": "Red Strap",
+      "imageUrl": "RedStrap.png"
+    },
+    {
+      "id": 3,
+      "styleName": "Blue Strap",
+      "imageUrl": "BlueStrap.png"
+    },
+    {
+      "id": 4,
+      "styleName": "Purple Strap",
+      "imageUrl": "PurpleStrap.png"
+    }
+  ],
+  "featureList": [
+    "Time",
+    "Heart Rate"
+  ]
+}

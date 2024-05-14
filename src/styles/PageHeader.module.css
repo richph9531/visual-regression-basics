@@ -1,0 +1,13 @@
+.PageHeader {
+  padding: 5px 5px 5px;
+  background: #3C6478;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.PageHeader > img {
+  width: 100px;
+}

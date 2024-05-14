@@ -1,0 +1,53 @@
+{
+  "name": "react-practice",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://richph9531.github.io/watches",
+  "dependencies": {
+    "@playwright/test": "^1.44.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:mock": "REACT_APP_MOCK_TIME=true react-scripts start",
+    "test": "playwright test",
+    "lint": "eslint . --ext .jsx,.js --fix && eslint . -f checkstyle -o eslint.xml"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/preset-react": "^7.18.6",
+    "eslint": "8.19.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-react": "^7.30.1",
+    "webpack": "^5.74.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

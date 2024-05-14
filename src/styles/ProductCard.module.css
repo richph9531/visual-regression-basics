@@ -1,0 +1,25 @@
+.ProductCard {
+  width: 100%;
+  max-width: 80px;
+  border-radius: 8px;
+  background: #ececec;
+  margin-right: 12px;
+  border:3px;
+  border-style:solid;
+  border-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.ProductCardSelected {
+  width: 100%;
+  max-width: 80px;
+  border-radius: 8px;
+  background: #ececec;
+  margin-right: 12px;
+  border:3px;
+  border-style:solid;
+  border-color: #5549c0;
+  border-radius: 8px;
+  cursor: pointer;
+}
